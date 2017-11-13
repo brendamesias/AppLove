@@ -70,4 +70,71 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+header{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /*outline: 1px solid blue;*/
+  background-color: white;
 
+}
+header div{
+  /*outline: 1px solid black;*/
+  display: inline-block;
+  padding: 2.7%;
+  padding-left: 11%;
+}
+header a{
+  /*outline: 1px solid red;*/
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px;
+  font-family:sans-serif;
+}
+header img{
+  width: 5%;
+  float: right;
+  /*outline: 1px solid green;*/
+  margin-right: 10%;
+  margin-top: 1.2%;
+}
+section{
+  margin: 0;
+  padding:0;
+  width: 100%;
+}
+.introduction{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: white;
+  background-image:url("../assets/images/bg-home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.introduction h2{
+  /*outline: 1px solid red;*/
+  padding: 4.5%;
+  margin: 0;
+}
+.introduction h1{
+  /*outline: 1px solid green;*/
+  font-size: 50px;
+  margin: 0;
+}
+.introduction p{
+  /*outline:1px solid blue;*/
+}
+.introduction a{
+  /*outline: 1px solid black;*/
+  margin: 5%;
+  margin-bottom: 8%;
+  padding: 10px;
+  display: inline-block;
+  background-color: #2ECC71;
+  color: white;
+}
